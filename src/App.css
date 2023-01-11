@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  display: flex;
+}
+
+.formulario {
+  width: 33%;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+.formulario form {
+  margin-top: 50px;
+}
+
+.formulario h1 {
+  margin: 20px;
+}
+
+.formulario label {
+  font-size: 20px;
+  margin: 5px 20px;
+}
+
+.formulario input {
+  width: 90%;
+  margin: 5px 20px;
+  height: 30px;
+}
+
+.formulario textarea {
+  width: 90%;
+  height: 110px;
+  margin: 10px;
+}
+
+.formulario button {
+  margin: 30px 150px;
+  width: 30%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: blue;
+  font-weight: bold;
+  color: #fff;
+  border-color: blue;
+}
+
+.prev {
+  width: 33%;
+  background-color: pink;
+}
+
+.prev hr {
+  width: 90%;
+}
+
+.code {
+  width: 33%;
+  background-color: black;
+  color: white;
+}
