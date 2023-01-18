@@ -1,17 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --color-primary: #fff;
+  --color-black: black;
+  --color-text-primary: rgba(20, 28, 57, 0.81);
+  --color-text-secondary: #fff;
+  --color-input: #293347a6;
+  --font: "Roboto", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font);
+}
+
+.header {
+  height: 80px;
+  background-color: var(--color-black);
+  color: #10b981;
+  text-align: start;
+  padding: 20px;
 }
 
 .contenedor {
   display: flex;
+  padding: 10px;
+  justify-content: space-between;
 }
 
 .formulario {
   width: 33%;
   height: 100vh;
-  background-color: aquamarine;
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .formulario form {
@@ -19,48 +44,86 @@
 }
 
 .formulario h1 {
+  text-align: center;
   margin: 20px;
+  color: var(--color-text-primary);
+  font-size: 2rem;
 }
 
 .formulario label {
-  font-size: 20px;
-  margin: 5px 20px;
+  font-size: 1.25rem;
+  margin: 10px 20px 0;
 }
 
 .formulario input {
   width: 90%;
-  margin: 5px 20px;
-  height: 30px;
+  margin: 10px 20px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid var(--color-input);
+  border-radius: 6px;
+  font-size: 18px;
 }
 
 .formulario textarea {
   width: 90%;
   height: 110px;
-  margin: 10px;
-}
-
-.formulario button {
-  margin: 30px 150px;
-  width: 30%;
-  height: 40px;
-  border-radius: 10px;
-  background-color: blue;
-  font-weight: bold;
-  color: #fff;
-  border-color: blue;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid var(--color-input);
+  border-radius: 6px;
+  font-size: 18px;
 }
 
 .prev {
   width: 33%;
-  background-color: pink;
+  padding: 10px;
+  border: 1px solid var(--color-input);
+  border-radius: 3px;
+  overflow: scroll;
 }
 
-.prev hr {
-  width: 90%;
+.prev__icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.prev h1 {
+  text-align: start;
+  padding: 10px;
+  color: var(--color-text-primary);
+  font-size: 2rem;
+  border-bottom: 1px solid #eaecef;
+}
+
+.prev img {
+  margin: 10px;
+}
+
+.prev p {
+  padding: 20px;
+}
+
+.prev h2 {
+  text-align: start;
+  margin: 10px;
+  padding: 10px;
+  color: var(--color-text-primary);
+  font-size: 1.5rem;
+  border-bottom: 1px solid #eaecef;
 }
 
 .code {
+  border-radius: 3px;
+  padding: 20px;
   width: 33%;
-  background-color: black;
-  color: white;
+  background-color: var(--color-black);
+  color: var(--color-text-secondary);
+  overflow: scroll;
+}
+
+.code__icon {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
 }
