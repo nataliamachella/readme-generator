@@ -3,7 +3,7 @@ README Generator
 
 App para crear un archivo README de forma rápida y sencilla.
 
-![](https://via.placeholder.com/468x300?text=App+Screenshot)
+![](https://github.com/nataliamachella/readme-generator/blob/main/src/assets/README-generator.png)
 
 Stack Tecnológico
 -----------------
@@ -15,4 +15,4 @@ Stack Tecnológico
 Licencia
 --------
 
-[](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)
