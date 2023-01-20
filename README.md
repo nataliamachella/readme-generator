@@ -8,7 +8,7 @@ App para crear un archivo README de forma rápida y sencilla.
 Stack Tecnológico
 -----------------
 
-**Backend:**
+
 
 **Frontend:** React, CSS
 
