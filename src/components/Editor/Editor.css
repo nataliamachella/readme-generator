@@ -28,10 +28,8 @@
 }
 
 .contenedor {
-  margin-top: 20px;
   display: flex;
-  padding: 10px;
-  justify-content: space-between;
+  padding-top: 15px;
 }
 
 .formulario {
@@ -90,7 +88,7 @@
 }
 
 .formulario button {
-  margin: 10px 150px;
+  margin: 20px 150px;
   width: 30%;
   height: 35px;
   padding: 10px;

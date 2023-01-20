@@ -8,6 +8,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import toast, { Toaster } from "react-hot-toast";
 import "./Editor.css";
 import TurndownService from "turndown";
+import { Link } from "react-router-dom";
 
 const Editor = () => {
   const [form, setForm] = useState({});
@@ -35,7 +36,9 @@ const Editor = () => {
     <>
       <header className="header">
         <h1>README Generator</h1>
-        <img src={iconCode} alt="logo README Generator" />
+        <Link to="/">
+          <img src={iconCode} alt="logo README Generator" />
+        </Link>
       </header>
       <div className="contenedor">
         <div className="formulario">
